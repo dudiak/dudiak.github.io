@@ -6,7 +6,6 @@ body {
 	background: #252525;
 	color: white;
 	margin: 0;
-	padding: 0 10%;
 	font-family: 'Ubuntu', arial, sans-serif;
 }
 
@@ -52,7 +51,7 @@ a:hover {
 
 .sidebar_button {
 	padding: 20px 0px 20px 20px;
-	background-image: url(/web/20141220073054im_/http://dudiak.com/images/sidebarButtonArrow.png);
+	background-image: url('../images/sidebarButtonArrow.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 	cursor: pointer;
@@ -82,6 +81,7 @@ a:hover {
 	background-image: url('../images/download.png');
 	background-repeat: no-repeat;
 	background-position: .25em .5em;
+    z-index: 1;
 }
 
 #pdf_download:hover {
@@ -117,10 +117,16 @@ a:hover {
 
 #resume_name {
 	margin: 0em auto .5em auto;
-	padding: 1em 0em .5em 0em;
+	padding: 2.5em 0em .5em 0em;
 	width: 10em;
 	font-size: 14pt;
 	border-bottom: 1px solid #374e5a;
+}
+
+@media (min-width: 28em) {
+    #resume_name {
+        padding: 1em 0em .5em 0em;
+    }
 }
 
 #resume_contact {
@@ -143,19 +149,40 @@ a:hover {
 
 .resume_section_title {
 	font-family: 'Arial Narrow', arial, sans-serif;
-	font-size: 8pt;
-	text-align: right;
+	font-size: 10pt;
 	text-transform: uppercase;
-	float: left;
-	width: 12em;
+    margin: 1.5em 0em -.4em 0em;
+    padding: .5em 0em .5em 0em;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fffcf0;
+}
+
+@media (min-width: 34em) {
+    .resume_section_title {
+        font-size: 8pt;
+        text-align: right;
+        float: left;
+        width: 12em;
+        margin: inherit;
+        padding: inherit;
+    }
 }
 
 .resume_section_content {
-	margin: 1em 4em 1em 14em;
+    margin: 1em 2em 1em 2em;
+}
+
+@media (min-width: 34em) {
+    .resume_section_content {
+        margin: 1em 4em 1em 14em;
+    }
 }
 
 .resume_section_item {
-	margin: 1em 0em 1em 0em;
+    margin: 1em 0em 1em 0em;
 }
 
 .resume_section_item_title {
@@ -171,10 +198,20 @@ a:hover {
 .resume_section_item_description {
     text-align: justify;
     text-justify: inter-word;
+    clear: right;
 }
 
 .resume_date {
-	float: right;
+    display: block;
+    margin: 0em 0em .25em 0em;
+}
+
+@media (min-width: 34em) {
+    .resume_date {
+        display: inherit;
+        margin: inherit;
+        float: right;
+    }
 }
 
 /* Copyright */
@@ -186,6 +223,7 @@ a:hover {
 	bottom: 1em;
 	right: 2em;
 	cursor: default;
+    z-index: 2;
 }
 
 /* Usupported Browsers Page */
