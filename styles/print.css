@@ -9,3 +9,7 @@ body {
 #copyright {
 	display: none;
 }
+
+#resume {
+    max-width: auto;
+}
