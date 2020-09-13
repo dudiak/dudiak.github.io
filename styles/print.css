@@ -1,0 +1,11 @@
+body {
+	padding: 0 1em;
+}
+
+#pdf_download {
+	display: none;
+}
+
+#copyright {
+	display: none;
+}
