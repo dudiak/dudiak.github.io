@@ -3,36 +3,36 @@
 /* Standard Elements */
 
 body {
-	background: #252525;
-	color: white;
-	margin: 0;
-	font-family: 'Ubuntu', arial, sans-serif;
+    background: #252525;
+    color: white;
+    margin: 0;
+    font-family: 'Ubuntu', arial, sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: blue;
+    text-decoration: underline;
+    color: blue;
 }
 
 /* Resume */
 
 #pdf_download {
-	color: white;
-	background-color: #c11717;
-	font-size: 10pt;
-	position: fixed;
-	top: 1em;
-	right: 0em;
+    color: white;
+    background-color: #c11717;
+    font-size: 10pt;
+    position: fixed;
+    top: 1em;
+    right: 0em;
     padding: .25em 1.25em .25em 1.5em;
-	cursor: hand;
-	background-image: url('../images/download.png');
-	background-repeat: no-repeat;
-	background-position: .25em .25em;
+    cursor: hand;
+    background-image: url('../images/download.png');
+    background-repeat: no-repeat;
+    background-position: .25em .25em;
     background-size: 1em 1em;
     z-index: 1;
 }
@@ -42,38 +42,38 @@ a:hover {
 }
 
 #resume {
-	width: 100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-	background-color: #fffcf0;
-	color: #374e5a;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 9pt;
-	padding-bottom: 1em;
+    background-color: #fffcf0;
+    color: #374e5a;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 9pt;
+    padding-bottom: 1em;
     max-width: 68em;
 }
 
 #resume a {
-	text-decoration: none;
-	color: #374e5a;
+    text-decoration: none;
+    color: #374e5a;
 }
 
 #resume a:hover {
-	text-decoration: underline;
-	color: blue;
+    text-decoration: underline;
+    color: blue;
 }
 
 #resume_header {
-	text-align: center;
-	text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #resume_name {
-	margin: 0em auto .5em auto;
-	padding: 2.5em 0em .5em 0em;
-	width: 10em;
-	font-size: 14pt;
-	border-bottom: 1px solid #374e5a;
+    margin: 0em auto .5em auto;
+    padding: 2.5em 0em .5em 0em;
+    width: 10em;
+    font-size: 14pt;
+    border-bottom: 1px solid #374e5a;
 }
 
 @media (min-width: 28em) {
@@ -83,17 +83,17 @@ a:hover {
 }
 
 #resume_contact {
-	
+    
 }
 
 #resume_address {
-	
+    
 }
 
 .resume_header_info {
-	font-family: 'Arial Narrow', 'Archivo Narrow', sans-serif;
-	font-size: 8pt;
-	margin: 0em .5em;
+    font-family: 'Arial Narrow', 'Archivo Narrow', sans-serif;
+    font-size: 8pt;
+    margin: 0em .5em;
 }
 
 .resume_header_info sup {
@@ -101,9 +101,9 @@ a:hover {
 }
 
 .resume_section_title {
-	font-family: 'Arial Narrow', 'Archivo Narrow', sans-serif;
-	font-size: 10pt;
-	text-transform: uppercase;
+    font-family: 'Arial Narrow', 'Archivo Narrow', sans-serif;
+    font-size: 10pt;
+    text-transform: uppercase;
     margin: 1.5em 0em -.4em 0em;
     padding: .5em 0em .5em 0em;
     text-align: center;
@@ -139,13 +139,13 @@ a:hover {
 }
 
 .resume_section_item_title {
-	text-transform: uppercase;
-	font-variant: small-caps;
-	font-weight: bold;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
 .resume_section_item_subtitle {
-	font-style: italic;
+    font-style: italic;
 }
 
 .resume_section_item_description {
@@ -170,11 +170,11 @@ a:hover {
 /* Copyright */
 
 #copyright {
-	color: gray;
-	font-size: 8pt;
-	position: fixed;
-	bottom: 1em;
-	right: 2em;
-	cursor: default;
+    color: gray;
+    font-size: 8pt;
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    cursor: default;
     z-index: 2;
 }

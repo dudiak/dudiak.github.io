@@ -1,13 +1,13 @@
 body {
-	padding: 0 1em;
+    padding: 0 1em;
 }
 
 #pdf_download {
-	display: none;
+    display: none;
 }
 
 #copyright {
-	display: none;
+    display: none;
 }
 
 #resume {
