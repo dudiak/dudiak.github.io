@@ -19,54 +19,6 @@ a:hover {
 	color: blue;
 }
 
-/* Sidebar */
-
-#main_sidebar {
-	visibility: hidden;
-}
-
-.sidebar {
-	position: fixed;
-	top: 0em;
-	bottom: 0em;
-	margin-top: 128px;
-	width: 320px;
-	background: rgba(128,128,128,0.5);
-	cursor: default;
-}
-
-.sidebar div {
-	vertical-align: middle;
-	color: white;
-	text-shadow: 0px -1px 2px rgba(0,0,0,0.75);
-	filter: Shadow(Color=rgba(0,0,0,0.75), Direction=45, Strength=1);
-	border-bottom: 1px solid rgba(0,0,0,0.25);
-}
-
-.sidebar_header {
-	text-align: center;
-	font-size: 20pt;
-	padding: 20px 20px 20px 20px;
-}
-
-.sidebar_button {
-	padding: 20px 0px 20px 20px;
-	background-image: url('../images/sidebarButtonArrow.png');
-	background-repeat: no-repeat;
-	background-position: right center;
-	cursor: pointer;
-}
-
-.sidebar_button:hover {
-	background-color: rgba(128,128,128,0.65);
-}
-
-/* Main Area */
-
-#main_area {
-	margin-left: 320px;
-}
-
 /* Resume */
 
 #pdf_download {
@@ -76,16 +28,17 @@ a:hover {
 	position: fixed;
 	top: 1em;
 	right: 0em;
-	padding: .25em 1.5em .25em 1.25em;
+    padding: .25em 1.25em .25em 1.5em;
 	cursor: hand;
 	background-image: url('../images/download.png');
 	background-repeat: no-repeat;
-	background-position: .25em .5em;
+	background-position: .25em .25em;
+    background-size: 1em 1em;
     z-index: 1;
 }
 
 #pdf_download:hover {
-	padding: .25em 2.5em .25em 1.25em;
+    padding: .25em 2.25em .25em 1.5em;
 }
 
 #resume {
@@ -138,7 +91,7 @@ a:hover {
 }
 
 .resume_header_info {
-	font-family: 'Arial Narrow', arial, sans-serif;
+	font-family: 'Arial Narrow', 'Archivo Narrow', sans-serif;
 	font-size: 8pt;
 	margin: 0em .5em;
 }
@@ -148,7 +101,7 @@ a:hover {
 }
 
 .resume_section_title {
-	font-family: 'Arial Narrow', arial, sans-serif;
+	font-family: 'Arial Narrow', 'Archivo Narrow', sans-serif;
 	font-size: 10pt;
 	text-transform: uppercase;
     margin: 1.5em 0em -.4em 0em;
@@ -224,63 +177,4 @@ a:hover {
 	right: 2em;
 	cursor: default;
     z-index: 2;
-}
-
-/* Usupported Browsers Page */
-
-#unsupported {
-	width: 480px;
-	height: 200px;
-	padding: 20px;
-	margin: 90px auto 0px auto;
-	background-color: white;
-	color: black;
-	font-size: 10pt;
-}
-
-#unsupported a {
-	color: black;
-}
-
-#unsupported a:hover {
-	text-decoration: none;
-	color: blue;
-}
-
-#browser_warning_icon {
-	color: #e09c14;
-	font-size: 32px;
-	margin: 9px;
-	float: left;
-}
-
-#browser_warning_text {
-	float: left;
-	padding: 10px;
-}
-
-#unsupported_title {
-	font-size: 14pt;
-}
-
-.browser_download {
-	float: right;
-	width: 72px;
-	margin: 10px 24px 0px 24px;
-	font-size: 10pt;
-	text-align: center;
-}
-
-.browser_download img {
-	width: 72px;
-}
-
-#unsupported_pdf {
-	text-align: center;
-	clear: both;
-	padding-top: 12px;
-}
-
-#unsupported_pdf a:hover {
-	text-decoration: underline;
 }
